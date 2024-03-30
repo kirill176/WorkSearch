@@ -18,7 +18,7 @@
 1. Клонируйте репозиторий:
 
     ```
-    git clone https://github.com/kirill176/WorkSearch.git
+    git clone http://localhost:3000/
     ```
 
 2. Перейдите в директорию проекта:
