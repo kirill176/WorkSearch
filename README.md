@@ -11,7 +11,7 @@
 1. Клонируйте репозиторий:
 
     ```
-    git clone https://github.com/your-username/job-portal-app.git
+    git clone https://github.com/kirill176/WorkSearch.git
     ```
 
 2. Перейдите в директорию проекта:
