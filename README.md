@@ -18,7 +18,7 @@
 1. Клонируйте репозиторий:
 
     ```
-    git clone http://localhost:3000/
+    git clone https://github.com/kirill176/WorkSearch.git
     ```
 
 2. Перейдите в директорию проекта:
@@ -41,7 +41,7 @@
     npm run dev
     ```
 
-   Приложение будет доступно по адресу https://work-search-tau.vercel.app/.
+   Приложение будет доступно по адресу http://localhost:3000/
 
 2. Для сборки приложения в продакшн режиме:
 
