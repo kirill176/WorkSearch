@@ -1,5 +1,6 @@
 import { FormValues } from "../../types/types";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import { useRouter } from "next/router";
 import * as Yup from "yup";
 
 const initialValues: FormValues = {
@@ -25,9 +26,11 @@ const validationSchema = Yup.object().shape({
 });
 
 const LoginForm: React.FC = () => {
+  const router = useRouter();
   const handleSubmit = (values: FormValues) => {
     const userInfoString = JSON.stringify(values);
     localStorage.setItem("userInfo", userInfoString);
+    router.reload();
   };
 
   return (
